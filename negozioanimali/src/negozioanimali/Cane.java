@@ -13,5 +13,8 @@ public class Cane {
     public Cane(String n) {
         this.nome = n;
     }
-    
+
+    public String getNome() {
+        return this.nome;
+    }    
 }
