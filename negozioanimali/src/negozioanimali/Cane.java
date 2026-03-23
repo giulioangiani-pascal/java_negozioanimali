@@ -10,6 +10,8 @@ package negozioanimali;
  */
 public class Cane {
     private String nome;
+    private int eta;
+
     public Cane(String n) {
         this.nome = n;
     }
@@ -21,4 +23,5 @@ public class Cane {
     public void setNome(String n) {
         this.nome = n;
     }
+
 }
